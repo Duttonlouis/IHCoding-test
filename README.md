@@ -17,13 +17,15 @@ End Time
 
 
 
-1) Write a function that take and integer and returns a boolean of false when the integer is a prime number and true if it is not.  A prime number is a number greater than 1 that has no positive divisors other than 1 and itself.
+# Problem 1) 
+
+Write a function that take and integer and returns a boolean of false when the integer is a prime number and true if it is not.  A prime number is a number greater than 1 that has no positive divisors other than 1 and itself.
 
 Example:
 isNotPrime(7) => false
 isNotPrime(12) => true
 
-
+<enter code here>
 using System;
 
 namespace testing_ground
@@ -66,7 +68,9 @@ namespace testing_ground
 
 
 
-2) Given a string, find the last unique (non-repeating) character in it and return it's index. If it doesn't exist, return -1. 
+# Problem 2) 
+
+Given a string, find the last unique (non-repeating) character in it and return it's index. If it doesn't exist, return -1. 
 
 Example:
 lastUnique(“timedtestsarestressful”) => 21
@@ -79,7 +83,9 @@ lastUnique(“omnomnom”) => -1
 
 
 
-3) Write a function that given a path, will read in a file and print the number of occurrences of all words in the file that start with a vowel (‘a’, ‘e’, ‘i’, ‘o’, ‘u’). 
+# Problem 3) 
+
+Write a function that given a path, will read in a file and print the number of occurrences of all words in the file that start with a vowel (‘a’, ‘e’, ‘i’, ‘o’, ‘u’). 
 
 Example:
 countVowelWords(“testfile.txt”) =>
@@ -97,7 +103,9 @@ countVowelWords(“testfile.txt”) =>
 
 
 
-4) Using the API at http://www.openweathermap.com/current, write a function that takes a city name and returns the current temperature as an integer in Celsius.  For the API key you may use: 1cf173745177b0bbfc3f6cc7050bd8ab
+# Problem 4) 
+
+Using the API at http://www.openweathermap.com/current, write a function that takes a city name and returns the current temperature as an integer in Celsius.  For the API key you may use: 1cf173745177b0bbfc3f6cc7050bd8ab
 
 Example:
 getTemperature(“Atlanta”) => 26
