@@ -25,7 +25,7 @@ Example:
 isNotPrime(7) => false
 isNotPrime(12) => true
 
-# ""enter code here""
+## ""enter code here""
 
 using System;
 
@@ -79,7 +79,7 @@ lastUnique(“xabcabc”) => 0
 lastUnique(“omnomnom”) => -1
 
 
-# ""insert code here""
+## ""insert code here""
 
 
 
@@ -99,7 +99,7 @@ countVowelWords(“testfile.txt”) =>
 ...
 
 
-# ""insert code here""
+## ""insert code here""
 
 
 
@@ -112,7 +112,7 @@ Example:
 getTemperature(“Atlanta”) => 26
 
 
-# ""insert code here""
+## ""insert code here""
 
 
 
@@ -157,7 +157,7 @@ The result would look something like:
 | Grady         | 84537            |
 | Northside     | 163522           |
 
-# ""Enter code here""
+## ""Enter code here""
 
 select * from Patients inner join Hospitals 
 on pa.id = ho.hospital_id  
